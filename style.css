@@ -44,3 +44,13 @@ td, th
 	font-size:25px;
 	text-align: left;
 }
+
+.fa {
+	padding: 50px;
+	font-size: 40px;
+	width: 10px;
+	text-align: right !important;
+	text-decoration: none;
+	border-radius: 50%;
+	font-size:48px;
+  }
