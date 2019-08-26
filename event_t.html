@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Events</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+<link rel="icon" href="img/club_logo.png" type="image/png" sizes="16x16">
+
+<script src="script.js"></script>
+<body class="background-blue">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar custom-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Brooklyn College Computer Science Club</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Us</a> 
+    <a href="" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Events</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large custom-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button custom-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Brooklyn College Computer Science Club</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b style="color: white">Events</b></h1>
+    <hr style="width:50px;border:5px solid white" class="w3-round">
+  </div>
+
+  <div>
+    <table>
+    <tr>
+        <th>Date</th>
+        <th>Event</th>
+    </tr>
+    <tr>
+        <td>mm/dd/yy</td>
+        <td><a href="#">Event name</a></td><!--href will contain event RSVP link-->
+    </tr>
+    <tr>
+        <td>mm/dd/yy</td>
+        <td><a href="#">Event name2</a></td><!--href will contain event RSVP link-->
+    </tr>
+    </table>
+  </div>
+  <!-- This section is to be used when past events have happened-->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b style="color: white">Past events</b></h1>
+    <hr style="width:50px;border:5px solid white" class="w3-round">
+  </div>
+
+  <div>
+    <table>
+    <tr>
+        <th>Date</th>
+        <th>Event</th>
+    </tr>
+    <tr>
+        <td>mm/dd/yy</td>
+        <td><a href="#">Event name</a></td><!--href will contain GitHub link if applicable-->
+    </tr>
+    <tr>
+        <td>mm/dd/yy</td>
+        <td><a href="#">Event name2</a></td><!--href will contain GitHub link if applicable-->
+    </tr>
+    </table>
+  </div>
+
+  <div class="w3-row-padding">
+    <h1 class="w3-xxxlarge" style="color: white"></h1>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px; color: white;">
+    <h1 class="w3-xxxlarge"><b>Contact</b></h1>
+    <hr style="width:50px;border:5px solid white" class="w3-round">
+    <p>Questions? Suggestions? Want to write about how much you like us?</p>
+    <p>Shoot us an email at bc.cis.club@gmail.com</p>
+      <a href="mailto:bc.cis.club@gmail.com"><button class="w3-button w3-block w3-padding-large custom-red w3-margin-bottom">Send Message</button></a>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+</body>
+</html>
