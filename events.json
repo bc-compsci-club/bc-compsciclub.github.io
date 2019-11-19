@@ -1,0 +1,79 @@
+[
+  {
+    "date": "11/26/19",
+    "name": "Coffee and Code",
+    "desc": "Monthly code & hangout!",
+    "loc": "Ingersoll 0317 (Clubroom)",
+    "link": ""
+  },
+  {
+    "date": "11/13/19",
+    "name": "Facul-Tea",
+    "desc": "Langsam talking about new additions due to a CUNY grant!",
+    "loc": "SUBO Basement",
+    "link": ""
+  },
+  {
+    "date": "11/19/19",
+    "name": "F&S Tech Talks",
+    "desc": "Learn about mathematics as an art and a surprise talk!",
+    "loc": "Ingersoll Room 1127",
+    "link": ""
+  },
+  {
+    "date": "10/30/19",
+    "name": "Cupcake and Code",
+    "desc": "Coding and cupcakes! 'nuff said!",
+    "loc": "Ingersoll 0317 (Clubroom)",
+    "link": ""
+  },
+  {
+    "date": "10/22/19",
+    "name": "S&S Tech Talks",
+    "desc": "Learn about the evolution of web frameworks and the pains of an intern",
+    "loc": "Ingersoll 1127",
+    "link": ""
+  },
+  {
+    "date": "10/02/2019",
+    "name": "Google Event",
+    "desc": "Technical Resume for all CIS students",
+    "loc": "Gold Room, Student Center",
+    "link": "https://websql.brooklyn.cuny.edu/vcc/workshop/login.jsp"
+  },
+  {
+    "date": "10/11/2019",
+    "name": "LinkedIn",
+    "desc": "Technical Workshop",
+    "loc": "TBD",
+    "link": ""
+  },
+  {
+    "date": "08/27/2019",
+    "name": "Club Fair",
+    "desc": "Learn about the club and join our email list",
+    "loc": "West Quad",
+    "link": ""
+  },
+  {
+    "date": "09/03/2019",
+    "name": "Meet The Board",
+    "desc": "Beat the board in board games",
+    "loc": "SUBO 4th Floor (Alumni Lounge)",
+    "link": ""
+  },
+  {
+    "date": "09/17/19",
+    "name": "F&S Tech Talks",
+    "desc": "Learn how Turing broke the enigma and how machine learning can save milions in revenue",
+    "loc": "Ingersoll 1441",
+    "link": ""
+  },
+  {
+    "date": "09/19/19",
+    "name": "Coffee and Code",
+    "desc": "Come to our club room to build and chill",
+    "loc": "Ingersoll 0318",
+    "link": ""
+  }
+]
