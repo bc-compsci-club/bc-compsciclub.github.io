@@ -1,4 +1,4 @@
 # BC-CompSciClub.github.io
-This is the Brookyln College Computer Science Club's website
+This is the old website for the Brooklyn College Computer Science Club.
 
-Website link: https://bc-compsciclub.github.io/
+The new website can be found at [bccompsci.club](bccompsci.club).
